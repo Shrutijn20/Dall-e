@@ -38,7 +38,7 @@ const  CreatePost =()=> {
        
       
     } else{
-      alert("Please enter a prompt")
+      alert("Please enter a correct prompt");
     }
   }
 
