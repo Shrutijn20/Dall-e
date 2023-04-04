@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+
 import { download } from '../assets';
 import { downloadImage } from '../utils';
-const Card =({_id,name,prompt,photo})=> {
-  return (
-    <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card">
+
+const Card = ({ _id, name, prompt, photo }) => (
+  <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card">
     <img
       className="w-full h-auto object-cover rounded-xl"
       src={photo}
@@ -22,8 +23,7 @@ const Card =({_id,name,prompt,photo})=> {
         </button>
       </div>
     </div>
-    </div>
-  )
-}
+  </div>
+);
 
-export default Card; 
+export default Card;
